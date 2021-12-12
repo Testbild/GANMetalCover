@@ -1,25 +1,26 @@
-# replace this text with your title (it will be automatically copied and used for the online visualization)
+# GANMetalCover
 
 ## description:
-replace this text with description (short description, not more than 200 characters)
+GAN network to automatically generate metal album covers
 
 
 ### participants:
-replace this text with the name and surnames of all the students who participated
+Christopher Hansen, Niko Schmidt
 
 
 ### contact information:
-replace this text with the contact information: a mail or a place to find information
+https://github.com/Testbild
+https://github.com/niko-ich
 
 ### course:
-replace this text with the name of the course, please copy it from the website
+Generative Adversarial Networks
 
 
 ### semester:
-replace this text with semester and year in the form "SoSe2021" or "WiSe2122" (SoSe only have one year, WiSe always has 2 years, so just two numbers per year)
+SoSe2021
 
 ### data:
-replace this text with short information about the data? was it personal, available online, from a company?
+https://www.kaggle.com/benjamnmachn/metal-album-artwork-dataset-intro
 
 ### website:
-does your project have a website/webapp? otherwise the project folder will link only to the code (if you add a website there will be two links)
+Sorry no web app available!
