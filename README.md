@@ -28,7 +28,10 @@ If you feel especially fantastic and want to run the model yourself please follo
 
 Here are some generated images from our model. Some of the 64x64 images look almost real. Though with the discolored pixel you can still easily distinguish between real and fake images. For the 28x28 the same is true, but with this small resolution it was also almost impossible to see anything on the real images. The loss development on the 64x64 model indicates, that a longer training time would probably improve the model outcome.
 
+64x64
 ![generatedFake](https://user-images.githubusercontent.com/9366108/145720727-059d7b9d-60ba-45b5-a3f1-a8c086fcfd00.png)
 ![index59](https://user-images.githubusercontent.com/9366108/145720734-0825ee9e-c62b-4640-a880-6763580c0bfd.png)
+
+28x28
 ![index](https://user-images.githubusercontent.com/9366108/145720753-832305e5-800a-4ac1-a497-196e320611fb.png)
 ![2index](https://user-images.githubusercontent.com/9366108/145720765-214a9aff-d158-4ff9-ae6c-9711a1304083.png)
