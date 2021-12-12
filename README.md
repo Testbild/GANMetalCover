@@ -24,6 +24,8 @@ If you feel especially fantastic and want to run the model yourself please follo
 * Run all
 * NOTE: The save/load part is commented out, to not overwrite the existing model
 
+We also built a conditional GAN, that also learn the label and would eventually be able to generate an image based on the music genre. Unfortunately our computational power was not big enough to have any results on this. There has been improvement after 24h of training, but not sufficient to justify longer training, especially compared to the training time, that has already been used on the 64x64. So if you are able to let that run on a more powerful machine, let us know.
+
 ## Results
 
 Here are some generated images from our model. Some of the 64x64 images look almost real. Though with the discolored pixel you can still easily distinguish between real and fake images. For the 28x28 the same is true, but with this small resolution it was also almost impossible to see anything on the real images. The loss development on the 64x64 model indicates, that a longer training time would probably improve the model outcome. Further results can be found in the "resources" folder.
