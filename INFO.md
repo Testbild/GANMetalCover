@@ -9,7 +9,7 @@ Christopher Hansen, Niko Schmidt
 
 
 ### contact information:
-https://github.com/Testbild
+https://github.com/Testbild, 
 https://github.com/niko-ich
 
 ### course:
