@@ -24,7 +24,7 @@ If you feel especially fantastic and want to run the model yourself please follo
 * Run all
 * NOTE: The save/load part is commented out, to not overwrite the existing model
 
-We also built a conditional GAN, that also learn the label and would eventually be able to generate an image based on the music genre. Unfortunately our computational power was not big enough to have any results on this. There has been improvement after 24h of training, but not sufficient to justify longer training, especially compared to the training time, that has already been used on the 64x64. So if you are able to let that run on a more powerful machine, let us know.
+We also built a conditional GAN, that also learn the label and would eventually be able to generate an image based on the music genre with 128x128 images. Unfortunately our computational power was not big enough to have any results on this. There has been improvement after 24h of training, but not sufficient to justify longer training, especially compared to the training time, that has already been used on the 64x64. So if you are able to let that run on a more powerful machine, let us know.
 
 ## Results
 
