@@ -2,6 +2,26 @@
 
 Final project for GAN course from opencampus.sh
 
+## Installation
+
+* Create a virtual environement
+
+```
+python -m venv GanMetalCover
+```
+
+* Install requirements.txt
+```
+pip install -r requirements.txt
+```
+
+* Add environement to kernel
+```
+python -m pip install --upgrade pip
+python -m ipykernel install --user --name=GanMetalCover
+```
+
+
 ## Description
 
 This repository allows you to generate your own metal album covers. We used a Wasserstein GAN for that based on the GAN course from coursera.org (https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/home/welcome). The model has been altered to fit our needs and work on RGB images. As our kaggle.com dataset was rather large and fans of Mastodon, we chose to only train the model on the main genre "Progressive" from the dataset.
