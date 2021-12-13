@@ -26,6 +26,10 @@ If you have trouble setting the venv up you may also check this repo here: https
 
 This repository allows you to generate your own metal album covers. We used a Wasserstein GAN for that based on the GAN course from coursera.org (https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/home/welcome). The model has been altered to fit our needs and work on RGB images. As our kaggle.com dataset was rather large and fans of Mastodon, we chose to only train the model on the main genre "Progressive" from the dataset.
 
+We also built a conditional GAN, that also learn the label and would eventually be able to generate an image based on the music genre with 128x128 images. Unfortunately our computational power was not big enough to have any results on this. There has been improvement after 24h of training, but not sufficient to justify longer training, especially compared to the training time, that has already been used on the 64x64. So if you are able to let that run on a more powerful machine, let us know.
+
+## Run the model
+
 In order to run the model please follow these steps:
 
 * Clone the repository
@@ -37,6 +41,8 @@ In order to run the model please follow these steps:
 
 The 28x28 model has been trained for 1000 epochs, which took around 6h on an RTX2060 and the 64x64 model has been trained 5000 epochs, which took about 50h on an RTX2060.
 
+## Train from scratch
+
 If you feel especially fantastic and want to run the model yourself please follow these steps:
 
 * Clone the repository
@@ -44,7 +50,8 @@ If you feel especially fantastic and want to run the model yourself please follo
 * Run all
 * NOTE: The save/load part is commented out, to not overwrite the existing model
 
-We also built a conditional GAN, that also learn the label and would eventually be able to generate an image based on the music genre with 128x128 images. Unfortunately our computational power was not big enough to have any results on this. There has been improvement after 24h of training, but not sufficient to justify longer training, especially compared to the training time, that has already been used on the 64x64. So if you are able to let that run on a more powerful machine, let us know.
+PS: You could also use the model with your own images and see what happens.
+
 
 ## Results
 
