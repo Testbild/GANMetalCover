@@ -20,7 +20,7 @@ pip install -r requirements.txt
 python -m pip install --upgrade pip
 python -m ipykernel install --user --name=GanMetalCover
 ```
-
+If you have trouble setting the venv up you may also check this repo here: https://github.com/nicknochnack/TFODCourse
 
 ## Description
 
