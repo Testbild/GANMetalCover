@@ -1,6 +1,6 @@
 # GANMetalCover
 
-Final project for GAN course from opencampus.sh
+Final project for GAN course from opencampus.sh https://edu.opencampus.sh/courses/212
 
 ## Installation
 
